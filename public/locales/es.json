@@ -15,6 +15,13 @@
 
   //LPS01: Ver sección Hero  -->
 
+  "hero-title-start": "Impulsamos",
+  "hero-title-middle": "agricultura eficiente",
+  "hero-title-and": "y",
+  "hero-title-end": "colaborativa",
+  "hero-desc": "Plataforma que conecta a agricultores y agrónomos, promoviendo la gestión de recursos y la asesoría técnica para lograr prácticas más rentables y responsables.",
+  "discover": "Descubre Agrotrack",
+  "users-trust": "+1,000 usuarios ya confían en nosotros",
 
 
   //LPS05: Ver sección "Quiénes somos"-->
@@ -38,4 +45,5 @@
 
 
   //LPS09: Ver sección Footer-->
+
 }
