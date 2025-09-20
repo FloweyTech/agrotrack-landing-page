@@ -19,7 +19,22 @@
 
 
 //LPS04   Ver testimonios de usuarios-->
+  <!--    LPS04   Ver testimonios de usuarios-->
 
+  "testimonials-title": "What our users say",
+  "testimonials-desc": "Real experiences from workers and clients who trust FloweyTech",
+  "read-testimonials": "Read testimonials",
+
+  "stats-1": "Registered Farmers and Agronomists",
+  "stats-2": "Registered Agricultural Activities",
+  "stats-3": "Average Rating",
+  "stats-4": "Satisfied Users",
+  "know-more": "Learn about our impact",
+
+  "form-validation-required": "Please complete all fields",
+  "form-validation-email": "Please enter a valid email",
+  "form-success": "Thank you for your message! We will contact you soon.",
+  "form-error": "An error occurred while sending the form. Please try again.",
 
 
 //LPS06   Consultar planes y precios-->
