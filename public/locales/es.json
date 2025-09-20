@@ -26,7 +26,22 @@
 
 
   //LPS04   Ver testimonios de usuarios-->
+  <!--    LPS04   Ver testimonios de usuarios-->
 
+  "testimonials-title": "Lo que dicen nuestros usuarios",
+  "testimonials-desc": "Experiencias reales de trabajadores y clientes que confían en FloweyTech",
+  "read-testimonials": "Lee los testimonios",
+
+  "stats-1": "Agricultores y Agrónomos registrados",
+  "stats-2": "Actividades agrícolas registradas",
+  "stats-3": "Calificación promedio",
+  "stats-4": "Usuarios satisfechos",
+  "know-more": "Conoce nuestro impacto",
+
+  "form-validation-required": "Por favor completa todos los campos",
+  "form-validation-email": "Por favor ingresa un email válido",
+  "form-success": "¡Gracias por tu mensaje! Te contactaremos pronto.",
+  "form-error": "Ocurrió un error al enviar el formulario. Inténtalo nuevamente.",
 
 
   //LPS06   Consultar planes y precios-->
