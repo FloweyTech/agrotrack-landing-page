@@ -22,7 +22,27 @@
 
 
   //LPS03: Ver beneficios y funcionalidades-->
+  "section-title": "Servicios",
+  "services-desc": "Te ayudamos a optimizar tus cultivos, gestionar mejor los recursos y mantener la trazabilidad de tus procesos agrícolas, todo desde una plataforma fácil de usar",
+  "service-1-title": "Registro y trazabilidad",
+  "service-1-desc": "Registra y sigue cada etapa de la producción.",
+  "service-2-title": "Monitoreo en tiempo real",
+  "service-2-desc": "Supervisa el estado de tus cultivos y recursos desde cualquier lugar.",
+  "service-3-title": "Reportes y métricas",
+  "service-3-desc": "Obtén informes claros sobre productividad y sostenibilidad",
+  "service-4-title": "Control climático",
+  "service-4-desc": "Monitorea las condiciones ambientales y recibe alertas de cambios importantes.",
+  "service-5-title": "Asesoría experta",
+  "service-5-desc": "Conecta con agrónomos especializados para optimizar tus cultivos.",
 
+  "join-us": "Únete a nosotros",
+  "start-today": "Comienza hoy mismo con FloweyTech",
+  "contact-desc": "Si buscas optimizar tu trabajo en el campo o asesorar con datos precisos, nuestro equipo está aquí para acompañarte.",
+  "benefit-1": "Registro gratuito y sencillo",
+  "benefit-2": "Asesoría personalizada",
+  "benefit-3": "Soporte al cliente disponible",
+  "register-now": "Registrarse ahora",
+  "learn-more": "Conocer más",
 
 
   //LPS04   Ver testimonios de usuarios-->
