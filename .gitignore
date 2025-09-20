@@ -1,0 +1,28 @@
+# ⚙IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos temporales y de sistema
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+
+# Archivos de pruebas o builds (si se usan a futuro)
+dist/
+build/
+.cache/
+*.local
+
+# Recursos descargables o empaquetados
+*.tgz
+
+# Dependencias (en caso usen algo más adelante)
+node_modules/
+bower_components/
+
+# Archivos de entorno
+.env*
