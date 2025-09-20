@@ -6,7 +6,6 @@
   "testimonials": "Testimonials",
   "contact": "Contact",
 
-//LPS01: Ver sección Hero  -->
 
   "hero-title-start": "We promote",
   "hero-title-middle": "efficient agriculture",
@@ -17,7 +16,6 @@
   "users-trust": "+1,000 users already trust us",
 
 
-//LPS05: Ver sección "Quiénes somos"-->
   "who-we-are": "Who we are?",
   "about-desc": "At FloweyTech we develop digital solutions for the agricultural sector. Our product, Agrotrack, helps farmers and agronomists record, monitor and analyze their crops in real time, improving productivity and traceability with a sustainable and collaborative approach.",
   "value-1-title": "Innovation",
@@ -30,7 +28,6 @@
   "value-4-desc": "We facilitate clear tracking of each stage of the production process.",
 
 
-//LPS03: Ver beneficios y funcionalidades-->
   "section-title": "Services",
   "services-desc": "We help you optimize your crops, better manage resources and maintain traceability of your agricultural processes, all from an easy-to-use platform",
   "service-1-title": "Registration and Traceability",
@@ -54,10 +51,6 @@
   "learn-more": "Learn more",
 
 
-
-//LPS04   Ver testimonios de usuarios-->
-  <!--    LPS04   Ver testimonios de usuarios-->
-
   "testimonials-title": "What our users say",
   "testimonials-desc": "Real experiences from workers and clients who trust FloweyTech",
   "read-testimonials": "Read testimonials",
@@ -73,9 +66,6 @@
   "form-success": "Thank you for your message! We will contact you soon.",
   "form-error": "An error occurred while sending the form. Please try again.",
 
-
-//LPS06   Consultar planes y precios-->
-  <!--    LPS06   Consultar planes y precios-->
 
   "pricing-title": "Pricing",
   "pricing-desc": "Accessible plans for all farmers",
@@ -95,11 +85,41 @@
 
 
 
-  //LPS07   Acceder a la sección de contacto-->
+  "form-description": "Complete the form and we will contact you",
+  "form-name": "Name",
+  "form-email": "Email",
+  "form-message": "Message",
+  "form-submit": "Send message",
+  "form-name-placeholder": "Your name",
+  "form-email-placeholder": "your@email.com",
+  "form-message-placeholder": "How can we help you?",
+
+  "job-farmer": "Farmer",
+  "job-agronomist": "Agronomist",
+  "job-producer": "Producer",
+  "job-specialist": "Agricultural Specialist",
+
+  "price-period": "/month",
+
+  "plan-1-feature-1": "Basic crop registration",
+  "plan-1-feature-2": "Up to 3 plots and 1 organization",
+  "plan-1-feature-3": "Basic reports",
+  "plan-1-feature-4": "Email support",
+
+  "plan-2-feature-1": "Everything from AgroStart",
+  "plan-2-feature-2": "Up to 20 plots and 3 organizations",
+  "plan-2-feature-3": "Real-time monitoring",
+  "plan-2-feature-4": "Automatic alerts",
+  "plan-2-feature-5": "Priority support",
+
+  "plan-3-feature-1": "Unlimited features (plots and organizations without restriction)",
+  "plan-3-feature-2": "Everything from AgroSmart",
+  "plan-3-feature-3": "Expert advice",
+  "plan-3-feature-4": "Advanced analytics",
+  "plan-3-feature-5": "Real-time weather alerts",
+  "plan-3-feature-6": "24/7 support",
 
 
-
-//LPS09: Ver sección Footer-->
   "footer-about": "About us",
   "footer-services": "Services",
   "footer-privacy": "Privacy policy",

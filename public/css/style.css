@@ -266,8 +266,8 @@ h1 {
 }
 
 .dot {
-    width: 100px;
-    height: 100px;
+    width: 30px;
+    height: 30px;
     background: var(--color-accent);
     border-radius: 50%;
     display: flex;

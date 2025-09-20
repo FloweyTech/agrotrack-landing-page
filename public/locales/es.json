@@ -13,20 +13,50 @@
   "nav-login": "Iniciar sesión",
   "nav-register": "Registrarse",
 
-  //LPS01: Ver sección Hero  -->
+  "hero-title-start": "Impulsamos",
+  "hero-title-middle": "agricultura eficiente",
+  "hero-title-and": "y",
+  "hero-title-end": "colaborativa",
+  "hero-desc": "Plataforma que conecta a agricultores y agrónomos, promoviendo la gestión de recursos y la asesoría técnica para lograr prácticas más rentables y responsables.",
+  "discover": "Descubre Agrotrack",
+  "users-trust": "+1,000 usuarios ya confían en nosotros",
 
 
 
-  //LPS05: Ver sección "Quiénes somos"-->
+  "who-we-are": "¿Quiénes somos?",
+  "about-desc": "En FloweyTech desarrollamos soluciones digitales para el sector agrícola. Nuestro producto, Agrotrack, ayuda a agricultores y agrónomos a registrar, monitorear y analizar sus cultivos en tiempo real, mejorando la productividad y la trazabilidad con un enfoque sostenible y colaborativo.",
+  "value-1-title": "Innovación",
+  "value-1-desc": "Usamos datos y tecnología para optimizar decisiones en el campo.",
+  "value-2-title": "Sostenibilidad",
+  "value-2-desc": "Impulsamos buenas prácticas agrícolas que cuidan el agua, el suelo y el ecosistema.",
+  "value-3-title": "Colaboración",
+  "value-3-desc": "Unimos productores y expertos para compartir conocimiento y soluciones.",
+  "value-4-title": "Transparencia",
+  "value-4-desc": "Facilitamos el seguimiento claro de cada etapa del proceso productivo.",
 
 
+  "section-title": "Servicios",
+  "services-desc": "Te ayudamos a optimizar tus cultivos, gestionar mejor los recursos y mantener la trazabilidad de tus procesos agrícolas, todo desde una plataforma fácil de usar",
+  "service-1-title": "Registro y trazabilidad",
+  "service-1-desc": "Registra y sigue cada etapa de la producción.",
+  "service-2-title": "Monitoreo en tiempo real",
+  "service-2-desc": "Supervisa el estado de tus cultivos y recursos desde cualquier lugar.",
+  "service-3-title": "Reportes y métricas",
+  "service-3-desc": "Obtén informes claros sobre productividad y sostenibilidad",
+  "service-4-title": "Control climático",
+  "service-4-desc": "Monitorea las condiciones ambientales y recibe alertas de cambios importantes.",
+  "service-5-title": "Asesoría experta",
+  "service-5-desc": "Conecta con agrónomos especializados para optimizar tus cultivos.",
 
-  //LPS03: Ver beneficios y funcionalidades-->
+  "join-us": "Únete a nosotros",
+  "start-today": "Comienza hoy mismo con FloweyTech",
+  "contact-desc": "Si buscas optimizar tu trabajo en el campo o asesorar con datos precisos, nuestro equipo está aquí para acompañarte.",
+  "benefit-1": "Registro gratuito y sencillo",
+  "benefit-2": "Asesoría personalizada",
+  "benefit-3": "Soporte al cliente disponible",
+  "register-now": "Registrarse ahora",
+  "learn-more": "Conocer más",
 
-
-
-  //LPS04   Ver testimonios de usuarios-->
-  <!--    LPS04   Ver testimonios de usuarios-->
 
   "testimonials-title": "Lo que dicen nuestros usuarios",
   "testimonials-desc": "Experiencias reales de trabajadores y clientes que confían en FloweyTech",
@@ -43,9 +73,6 @@
   "form-success": "¡Gracias por tu mensaje! Te contactaremos pronto.",
   "form-error": "Ocurrió un error al enviar el formulario. Inténtalo nuevamente.",
 
-
-  //LPS06   Consultar planes y precios-->
-  <!--    LPS06   Consultar planes y precios-->
 
   "hero-cta": "Empieza gratis",
   "features-title": "Características de Agrotrack",
@@ -101,9 +128,51 @@
 
 
 
-  //LPS07   Acceder a la sección de contacto-->
+  "form-description": "Completa el formulario y nos pondremos en contacto contigo",
+  "form-name": "Nombre",
+  "form-email": "Email",
+  "form-message": "Mensaje",
+  "form-submit": "Enviar mensaje",
+  "form-name-placeholder": "Tu nombre",
+  "form-email-placeholder": "tu@email.com",
+  "form-message-placeholder": "¿En qué podemos ayudarte?",
+
+  "job-farmer": "Agricultor",
+  "job-agronomist": "Agrónoma",
+  "job-producer": "Productor",
+  "job-specialist": "Especialista Agrícola",
+
+  "price-period": "/mes",
+
+  "plan-1-feature-1": "Registro básico de cultivos",
+  "plan-1-feature-2": "Hasta 3 parcelas y 1 organización",
+  "plan-1-feature-3": "Reportes básicos",
+  "plan-1-feature-4": "Soporte por email",
+
+  "plan-2-feature-1": "Todo lo de AgroStart",
+  "plan-2-feature-2": "Hasta 20 parcelas y 3 organizaciones",
+  "plan-2-feature-3": "Monitoreo en tiempo real",
+  "plan-2-feature-4": "Alertas automáticas",
+  "plan-2-feature-5": "Soporte prioritario",
+
+  "plan-3-feature-1": "Funcionalidades ilimitadas (parcelas y organizaciones sin restricción)",
+  "plan-3-feature-2": "Todo lo de AgroSmart",
+  "plan-3-feature-3": "Asesoría experta",
+  "plan-3-feature-4": "Análisis avanzados",
+  "plan-3-feature-5": "Alertas Climáticas en tiempo real",
+  "plan-3-feature-6": "Soporte 24/7",
 
 
 
-  //LPS09: Ver sección Footer-->
+  "footer-about": "Sobre nosotros",
+  "footer-services": "Servicios",
+  "footer-privacy": "Política de privacidad",
+  "footer-terms": "Términos y condiciones",
+
+  "footer-desc": "Conectamos a agricultores y agrónomos a través de soluciones digitales para el campo contribuyendo, optimizando la trazabilidad, la productividad y la asesoría técnica en el campo.",
+  "platform": "Plataforma",
+  "company": "Empresa",
+  "legal": "Legal",
+  "copyright": "© 2025 FloweyTech Todos los derechos reservados.",
+  "made-with": "Hecho con ❤️ por estudiantes de la UPC"
 }
