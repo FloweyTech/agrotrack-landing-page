@@ -38,4 +38,15 @@
 
 
   //LPS09: Ver sección Footer-->
+  "footer-about": "Sobre nosotros",
+  "footer-services": "Servicios",
+  "footer-privacy": "Política de privacidad",
+  "footer-terms": "Términos y condiciones",
+
+  "footer-desc": "Conectamos a agricultores y agrónomos a través de soluciones digitales para el campo contribuyendo, optimizando la trazabilidad, la productividad y la asesoría técnica en el campo.",
+  "platform": "Plataforma",
+  "company": "Empresa",
+  "legal": "Legal",
+  "copyright": "© 2025 FloweyTech Todos los derechos reservados.",
+  "made-with": "Hecho con ❤️ por estudiantes de la UPC"
 }
