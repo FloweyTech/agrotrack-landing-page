@@ -15,50 +15,14 @@
 
   //LPS01: Ver sección Hero  -->
 
-  "hero-title-start": "Impulsamos",
-  "hero-title-middle": "agricultura eficiente",
-  "hero-title-and": "y",
-  "hero-title-end": "colaborativa",
-  "hero-desc": "Plataforma que conecta a agricultores y agrónomos, promoviendo la gestión de recursos y la asesoría técnica para lograr prácticas más rentables y responsables.",
-  "discover": "Descubre Agrotrack",
-  "users-trust": "+1,000 usuarios ya confían en nosotros",
 
 
   //LPS05: Ver sección "Quiénes somos"-->
-  "who-we-are": "¿Quiénes somos?",
-  "about-desc": "En FloweyTech desarrollamos soluciones digitales para el sector agrícola. Nuestro producto, Agrotrack, ayuda a agricultores y agrónomos a registrar, monitorear y analizar sus cultivos en tiempo real, mejorando la productividad y la trazabilidad con un enfoque sostenible y colaborativo.",
-  "value-1-title": "Innovación",
-  "value-1-desc": "Usamos datos y tecnología para optimizar decisiones en el campo.",
-  "value-2-title": "Sostenibilidad",
-  "value-2-desc": "Impulsamos buenas prácticas agrícolas que cuidan el agua, el suelo y el ecosistema.",
-  "value-3-title": "Colaboración",
-  "value-3-desc": "Unimos productores y expertos para compartir conocimiento y soluciones.",
-  "value-4-title": "Transparencia",
-  "value-4-desc": "Facilitamos el seguimiento claro de cada etapa del proceso productivo.",
+
 
 
   //LPS03: Ver beneficios y funcionalidades-->
-  "section-title": "Servicios",
-  "services-desc": "Te ayudamos a optimizar tus cultivos, gestionar mejor los recursos y mantener la trazabilidad de tus procesos agrícolas, todo desde una plataforma fácil de usar",
-  "service-1-title": "Registro y trazabilidad",
-  "service-1-desc": "Registra y sigue cada etapa de la producción.",
-  "service-2-title": "Monitoreo en tiempo real",
-  "service-2-desc": "Supervisa el estado de tus cultivos y recursos desde cualquier lugar.",
-  "service-3-title": "Reportes y métricas",
-  "service-3-desc": "Obtén informes claros sobre productividad y sostenibilidad",
-  "service-4-title": "Control climático",
-  "service-4-desc": "Monitorea las condiciones ambientales y recibe alertas de cambios importantes.",
-  "service-5-title": "Asesoría experta",
-  "service-5-desc": "Conecta con agrónomos especializados para optimizar tus cultivos.",
 
-  "join-us": "Únete a nosotros",
-  "start-today": "Comienza hoy mismo con FloweyTech",
-  "contact-desc": "Si buscas optimizar tu trabajo en el campo o asesorar con datos precisos, nuestro equipo está aquí para acompañarte.",
-  "benefit-1": "Registro gratuito y sencillo",
-  "benefit-2": "Asesoría personalizada",
-  "benefit-3": "Soporte al cliente disponible",
-  "register-now": "Registrarse ahora",
-  "learn-more": "Conocer más",
 
 
   //LPS04   Ver testimonios de usuarios-->
@@ -74,5 +38,4 @@
 
 
   //LPS09: Ver sección Footer-->
-
 }
