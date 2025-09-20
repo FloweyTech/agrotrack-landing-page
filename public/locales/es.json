@@ -30,6 +30,59 @@
 
 
   //LPS06   Consultar planes y precios-->
+  <!--    LPS06   Consultar planes y precios-->
+
+  "hero-cta": "Empieza gratis",
+  "features-title": "Características de Agrotrack",
+  "features-desc": "Herramientas diseñadas para el agricultor moderno",
+  "feature-1-title": "Interfaz intuitiva",
+  "feature-1-desc": "Fácil de usar, sin necesidad de ser un experto en tecnología.",
+  "feature-2-title": "Acceso móvil",
+  "feature-2-desc": "Consulta y actualiza información desde cualquier dispositivo.",
+  "feature-3-title": "Integración de datos",
+  "feature-3-desc": "Conecta con otras herramientas y plataformas que ya utilizas.",
+  "feature-4-title": "Seguridad de datos",
+  "feature-4-desc": "Tus datos están protegidos con los más altos estándares de seguridad.",
+
+  "pricing-title": "Precios",
+  "pricing-desc": "Planes accesibles para todos los agricultores",
+  "plan-1-title": "AgroStart",
+  "plan-1-desc": "Ideal para agricultores individuales que están comenzando.",
+  "plan-2-title": "AgroSmart",
+  "plan-2-desc": "Para agricultores que buscan optimizar su producción.",
+  "plan-3-title": "AgroExpert",
+  "plan-3-desc": "Solución completa para grandes productores agrícolas.",
+  "contact-sales": "Contactar ventas",
+
+  "testimonial-1": "Gracias a FloweyTech, he podido llevar un control más preciso de mis cultivos y he aumentado mi producción.",
+  "testimonial-2": "La asesoría que recibí fue clave para implementar prácticas más sostenibles en mi finca.",
+  "testimonial-3": "Ahora puedo monitorear mis cultivos en tiempo real, ¡es una herramienta imprescindible!",
+  "testimonial-4": "Agrotrack ha revolucionado mi forma de trabajar en el campo.",
+
+  "cta-title": "Listo para empezar?",
+  "cta-desc": "Únete a los miles de agricultores que ya están mejorando sus prácticas agrícolas con FloweyTech.",
+  "cta-button": "Crear cuenta gratuita",
+
+  "modal-login-title": "Iniciar sesión en tu cuenta",
+  "modal-login-email": "Correo electrónico",
+  "modal-login-password": "Contraseña",
+  "modal-login-forgot": "¿Olvidaste tu contraseña?",
+  "modal-login-button": "Entrar",
+
+  "modal-register-title": "Crear una nueva cuenta",
+  "modal-register-name": "Nombre completo",
+  "modal-register-email": "Correo electrónico",
+  "modal-register-password": "Contraseña",
+  "modal-register-button": "Registrarse",
+
+  "alert-success": "Operación realizada con éxito.",
+  "alert-error": "Ocurrió un error, por favor intenta nuevamente.",
+  "alert-warning": "Por favor completa todos los campos requeridos.",
+  "alert-info": "Información importante.",
+
+  "date-format": "DD/MM/YYYY",
+  "time-format": "HH:mm",
+  "currency-symbol": "S/.",
 
 
 

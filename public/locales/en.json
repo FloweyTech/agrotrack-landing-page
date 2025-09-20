@@ -60,10 +60,27 @@
 
 
 //LPS06   Consultar planes y precios-->
+  <!--    LPS06   Consultar planes y precios-->
+
+  "pricing-title": "Pricing",
+  "pricing-desc": "Accessible plans for all farmers",
+  "plan-1-title": "AgroStart",
+  "plan-1-desc": "Ideal for individual farmers who are just starting.",
+  "plan-2-title": "AgroSmart",
+  "plan-2-desc": "For farmers looking to optimize their production.",
+  "plan-3-title": "AgroExpert",
+  "plan-3-desc": "Complete solution for large agricultural producers.",
+  "contact-sales": "Contact sales",
+
+  "testimonial-1": "Thanks to FloweyTech, I have been able to keep more precise control of my crops and have increased my production.",
+  "testimonial-2": "The advice I received was key to implementing more sustainable practices on my farm.",
+  "testimonial-3": "Now I can monitor my crops in real time, it's an essential tool!",
+  "testimonial-4": "Agrotrack has revolutionized my way of working in the field.",
 
 
 
-//LPS07   Acceder a la sección de contacto-->
+
+  //LPS07   Acceder a la sección de contacto-->
 
 
 
