@@ -25,7 +25,16 @@
 
 
   //LPS05: Ver sección "Quiénes somos"-->
-
+  "who-we-are": "¿Quiénes somos?",
+  "about-desc": "En FloweyTech desarrollamos soluciones digitales para el sector agrícola. Nuestro producto, Agrotrack, ayuda a agricultores y agrónomos a registrar, monitorear y analizar sus cultivos en tiempo real, mejorando la productividad y la trazabilidad con un enfoque sostenible y colaborativo.",
+  "value-1-title": "Innovación",
+  "value-1-desc": "Usamos datos y tecnología para optimizar decisiones en el campo.",
+  "value-2-title": "Sostenibilidad",
+  "value-2-desc": "Impulsamos buenas prácticas agrícolas que cuidan el agua, el suelo y el ecosistema.",
+  "value-3-title": "Colaboración",
+  "value-3-desc": "Unimos productores y expertos para compartir conocimiento y soluciones.",
+  "value-4-title": "Transparencia",
+  "value-4-desc": "Facilitamos el seguimiento claro de cada etapa del proceso productivo.",
 
 
   //LPS03: Ver beneficios y funcionalidades-->
