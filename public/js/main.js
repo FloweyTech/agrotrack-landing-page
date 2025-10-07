@@ -1,7 +1,7 @@
 import { loadLanguage, getTranslation } from './modules/i18n.js';
 
 // Sistema de traducción
-let currentLanguage = 'es'; // Empezar con español
+let currentLanguage = 'en'; // Cambiar a inglés por defecto
 
 const languageBtn = document.querySelector('.btn-language');
 const currentLangSpan = document.querySelector('.current-lang');
@@ -10,17 +10,23 @@ const altLangSpan = document.querySelector('.alt-lang');
 async function toggleLanguage() {
     // Cambiar entre español e inglés
     currentLanguage = currentLanguage === 'es' ? 'en' : 'es';
-    const nextLanguage = currentLanguage === 'es' ? 'en' : 'es';
-
-    // Actualizar el botón de idioma
-    currentLangSpan.textContent = currentLanguage.toUpperCase();
-    altLangSpan.textContent = nextLanguage.toUpperCase();
 
     // Cargar las traducciones desde el archivo JSON correspondiente
     await loadLanguage(currentLanguage);
 
+    // Actualizar el botón de idioma correctamente
+    updateLanguageButton();
+
     // Actualizar el atributo lang del HTML
     document.documentElement.lang = currentLanguage;
+}
+
+// Función para actualizar el botón de idioma
+function updateLanguageButton() {
+    if (currentLangSpan && altLangSpan) {
+        currentLangSpan.textContent = currentLanguage.toUpperCase();
+        altLangSpan.textContent = currentLanguage === 'es' ? 'EN' : 'ES';
+    }
 }
 
 // Inicializar con idioma por defecto cuando cargue la página
@@ -28,9 +34,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     await loadLanguage(currentLanguage);
     document.documentElement.lang = currentLanguage;
 
-    // Configurar el botón inicial
-    currentLangSpan.textContent = currentLanguage.toUpperCase();
-    altLangSpan.textContent = currentLanguage === 'es' ? 'EN' : 'ES';
+    // Configurar el botón inicial correctamente
+    updateLanguageButton();
 });
 
 // Agregar event listener al botón de idioma
