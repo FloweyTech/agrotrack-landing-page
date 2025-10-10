@@ -275,3 +275,43 @@ if (contactForm) {
         contactForm.reset();
     });
 }
+
+// Redirección a la aplicación web de AgroTrack
+const AGROTRACK_APP_URL = 'https://agrotrack-web-app.netlify.app/';
+
+// Función para redirigir a la aplicación web
+function redirectToApp() {
+    window.open(AGROTRACK_APP_URL, '_blank');
+}
+
+// Event listeners para botones de login y register en el navbar
+const btnLogin = document.querySelector('.btn-login');
+const btnRegister = document.querySelector('.btn-register');
+
+if (btnLogin) {
+    btnLogin.addEventListener('click', redirectToApp);
+}
+
+if (btnRegister) {
+    btnRegister.addEventListener('click', redirectToApp);
+}
+
+// Event listener para el botón discover en el hero
+const btnDiscover = document.querySelector('.btn-discover');
+
+if (btnDiscover) {
+    btnDiscover.addEventListener('click', redirectToApp);
+}
+
+// Event listeners para otros botones de registro en la página
+const btnRegisterNow = document.querySelectorAll('.btn-register-now');
+const btnPlan = document.querySelectorAll('.btn-plan');
+
+btnRegisterNow.forEach(btn => {
+    btn.addEventListener('click', redirectToApp);
+});
+
+btnPlan.forEach(btn => {
+    btn.addEventListener('click', redirectToApp);
+});
+
