@@ -48,7 +48,13 @@
   "product-desc-2": "Designed with farmers and agronomists in mind, AgroTrack combines simplicity with power to help you make better decisions based on real data.",
   "product-feature-1": "Intuitive and easy-to-use interface",
   "product-feature-2": "Connect with specialized agronomists",
-    "product-feature-3": "Real-time climate status control",
+  "product-feature-3": "Real-time climate status control",
+
+  "team": "About the Team",
+  "team-title": "Meet the team behind AgroTrack",
+  "team-desc-1": "Meet the passionate team driving AgroTrack forward. We're dedicated to creating technological solutions that transform how you manage your crops and plots. Our expertise in agronomy, technology, and data analysis ensures you can focus on what truly matters: growing more efficiently and sustainably.",
+
+
   "join-us": "Join us",
   "start-today": "Start today with FloweyTech",
   "contact-desc": "If you're looking to optimize your fieldwork or advise with precise data, our team is here to support you.",
