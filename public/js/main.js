@@ -1,7 +1,7 @@
 import { loadLanguage, getTranslation } from './modules/i18n.js';
 
 // Sistema de traducción
-let currentLanguage = 'es'; // Empezar con español
+let currentLanguage = 'en'; // Cambiar a inglés por defecto
 
 const languageBtn = document.querySelector('.btn-language');
 const currentLangSpan = document.querySelector('.current-lang');
@@ -10,17 +10,23 @@ const altLangSpan = document.querySelector('.alt-lang');
 async function toggleLanguage() {
     // Cambiar entre español e inglés
     currentLanguage = currentLanguage === 'es' ? 'en' : 'es';
-    const nextLanguage = currentLanguage === 'es' ? 'en' : 'es';
-
-    // Actualizar el botón de idioma
-    currentLangSpan.textContent = currentLanguage.toUpperCase();
-    altLangSpan.textContent = nextLanguage.toUpperCase();
 
     // Cargar las traducciones desde el archivo JSON correspondiente
     await loadLanguage(currentLanguage);
 
+    // Actualizar el botón de idioma correctamente
+    updateLanguageButton();
+
     // Actualizar el atributo lang del HTML
     document.documentElement.lang = currentLanguage;
+}
+
+// Función para actualizar el botón de idioma
+function updateLanguageButton() {
+    if (currentLangSpan && altLangSpan) {
+        currentLangSpan.textContent = currentLanguage.toUpperCase();
+        altLangSpan.textContent = currentLanguage === 'es' ? 'EN' : 'ES';
+    }
 }
 
 // Inicializar con idioma por defecto cuando cargue la página
@@ -28,9 +34,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     await loadLanguage(currentLanguage);
     document.documentElement.lang = currentLanguage;
 
-    // Configurar el botón inicial
-    currentLangSpan.textContent = currentLanguage.toUpperCase();
-    altLangSpan.textContent = currentLanguage === 'es' ? 'EN' : 'ES';
+    // Configurar el botón inicial correctamente
+    updateLanguageButton();
 });
 
 // Agregar event listener al botón de idioma
@@ -270,3 +275,43 @@ if (contactForm) {
         contactForm.reset();
     });
 }
+
+// Redirección a la aplicación web de AgroTrack
+const AGROTRACK_APP_URL = 'https://agrotrack-web-app.netlify.app/';
+
+// Función para redirigir a la aplicación web
+function redirectToApp() {
+    window.open(AGROTRACK_APP_URL, '_blank');
+}
+
+// Event listeners para botones de login y register en el navbar
+const btnLogin = document.querySelector('.btn-login');
+const btnRegister = document.querySelector('.btn-register');
+
+if (btnLogin) {
+    btnLogin.addEventListener('click', redirectToApp);
+}
+
+if (btnRegister) {
+    btnRegister.addEventListener('click', redirectToApp);
+}
+
+// Event listener para el botón discover en el hero
+const btnDiscover = document.querySelector('.btn-discover');
+
+if (btnDiscover) {
+    btnDiscover.addEventListener('click', redirectToApp);
+}
+
+// Event listeners para otros botones de registro en la página
+const btnRegisterNow = document.querySelectorAll('.btn-register-now');
+const btnPlan = document.querySelectorAll('.btn-plan');
+
+btnRegisterNow.forEach(btn => {
+    btn.addEventListener('click', redirectToApp);
+});
+
+btnPlan.forEach(btn => {
+    btn.addEventListener('click', redirectToApp);
+});
+
