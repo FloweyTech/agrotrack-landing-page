@@ -505,6 +505,276 @@ h1 {
     line-height: 1.5;
 }
 
+/* Product Video Section */
+.product-video {
+    padding: 5rem 5%;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+.product-video .search-bar {
+    margin-bottom: 3rem;
+}
+
+.product-video-container {
+    display: flex;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: left;
+}
+
+.video-wrapper {
+    flex: 1;
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.product-description {
+    flex: 1;
+    text-align: left;
+}
+
+.product-description h2 {
+    color: var(--color-text);
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.product-description p {
+    color: var(--color-text-light);
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.product-features {
+    margin: 2rem 0;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    background: white;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.feature-item:hover {
+    transform: translateX(10px);
+}
+
+.feature-icon {
+    width: 30px;
+    height: 30px;
+    background: var(--color-primary);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.feature-item span:last-child {
+    color: var(--color-text);
+    font-size: 1rem;
+}
+
+.btn-watch-demo {
+    background: var(--color-primary);
+    color: white;
+    padding: 1rem 2.5rem;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+}
+
+.btn-watch-demo:hover {
+    background: #388E3C;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(67, 160, 71, 0.3);
+}
+
+.play-icon {
+    font-size: 1rem;
+}
+
+/* Responsive para Product Video */
+@media (max-width: 768px) {
+    .product-video-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .product-description h2 {
+        font-size: 2rem;
+    }
+
+    .product-description {
+        text-align: center;
+    }
+
+    .feature-item {
+        justify-content: center;
+    }
+}
+
+/* Team Video Section */
+.team-video {
+    padding: 5rem 5%;
+    background: var(--color-background);
+    text-align: center;
+}
+
+.team-video .search-bar {
+    margin-bottom: 3rem;
+}
+
+.team-video-container {
+    display: flex;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: left;
+}
+
+.team-description {
+    flex: 1;
+}
+
+.team-description h2 {
+    color: var(--color-text);
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.team-description p {
+    color: var(--color-text-light);
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.team-values {
+    margin: 2rem 0;
+}
+
+.value-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.value-item:hover {
+    transform: translateX(10px);
+}
+
+.value-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+}
+
+.value-content h4 {
+    color: var(--color-text);
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.value-content p {
+    color: var(--color-text-light);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.btn-meet-team {
+    background: var(--color-secondary);
+    color: white;
+    padding: 1rem 2.5rem;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+}
+
+.btn-meet-team:hover {
+    background: #1976D2;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(33, 150, 243, 0.3);
+}
+
+.team-icon {
+    font-size: 1rem;
+}
+
+.team-video-container .video-wrapper {
+    flex: 1;
+}
+
+/* Responsive para Team Video */
+@media (max-width: 768px) {
+    .team-video-container {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+
+    .team-description h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .team-description {
+        text-align: center;
+    }
+
+    .value-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
 /* Testimonials Section */
 .testimonials {
     padding: 5rem 5%;
